@@ -19,8 +19,7 @@ def get_embedding_model():
         os.environ["REQUESTS_CA_BUNDLE"] = ""
         os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1"
         _embedding_model = SentenceTransformer(
-            config.EMBEDDING_MODEL, 
-            local_files_only=True
+            config.EMBEDDING_MODEL
         )
     return _embedding_model
 
