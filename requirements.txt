@@ -1,0 +1,11 @@
+streamlit
+crewai
+anthropic
+langchain
+langchain-text-splitters
+pdfplumber
+sentence-transformers
+qdrant-client
+python-dotenv
+pandas
+pydantic
